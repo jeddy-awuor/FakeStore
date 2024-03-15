@@ -2,7 +2,9 @@ package com.example.fakestoreapi.network
 
 import retrofit2.http.GET
 
-interface productservice {
+
+
+interface Productservice {
     @GET("/products")
-   fun getproducts():productsapi
+   fun getProducts():`ProductsReponse\`
 }

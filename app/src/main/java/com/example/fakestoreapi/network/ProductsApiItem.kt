@@ -1,6 +1,6 @@
 package com.example.fakestoreapi.network
 
-data class productsapiItem(
+data class ProductsApiItem(
     val category: String,
     val description: String,
     val id: Int,
